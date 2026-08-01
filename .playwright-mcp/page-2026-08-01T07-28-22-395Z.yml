@@ -1,0 +1,124 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Zahara College home" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - img "Zahara Education and Charitable Trust" [ref=f1e6]
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]: Zahara
+          - generic [ref=f1e9]: College of Skills
+      - navigation "Primary navigation" [ref=f1e10]:
+        - link "About" [ref=f1e11] [cursor=pointer]:
+          - /url: "#about"
+        - link "Courses" [ref=f1e12] [cursor=pointer]:
+          - /url: /courses
+        - link "Life at Zahara" [ref=f1e13] [cursor=pointer]:
+          - /url: "#life-at-zahara"
+        - link "Admissions" [ref=f1e14] [cursor=pointer]:
+          - /url: /admissions
+        - link "Contact" [ref=f1e15] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f1e16]:
+        - link "WhatsApp" [ref=f1e17] [cursor=pointer]:
+          - /url: https://wa.me/919328282900
+        - link "Start Your Journey" [ref=f1e20] [cursor=pointer]:
+          - /url: /admissions
+  - main [ref=f1e21]:
+    - generic [ref=f1e23]:
+      - paragraph [ref=f1e24]: Admissions
+      - heading "Start your journey with Zahara." [level=1] [ref=f1e25]
+      - paragraph [ref=f1e26]: Tell us what you would like to learn. Our admissions team will help you find the right next step.
+    - generic [ref=f1e28]:
+      - complementary [ref=f1e29]:
+        - heading "Your enquiry matters." [level=2] [ref=f1e30]
+        - paragraph [ref=f1e31]: Submitting the form is the best way to begin. It helps our team understand your interests before they contact you.
+        - generic [ref=f1e32]: Your details are used only to respond to your admission enquiry and follow up with your permission.
+        - paragraph [ref=f1e36]: Prefer to ask a quick question?
+        - link "Chat on WhatsApp" [ref=f1e37] [cursor=pointer]:
+          - /url: https://wa.me/919328282900
+      - generic [ref=f1e40]:
+        - generic [ref=f1e41]:
+          - generic [ref=f1e42]:
+            - text: Full name
+            - textbox "Full name" [ref=f1e43]: Priya Sharma
+          - generic [ref=f1e44]:
+            - text: Mobile number
+            - textbox "Mobile number" [ref=f1e45]: "9876543210"
+          - generic [ref=f1e46]:
+            - text: Email address
+            - textbox "Email address" [ref=f1e47]: priya.sharma@example.com
+          - generic [ref=f1e48]:
+            - text: Course interested in
+            - combobox "Course interested in" [ref=f1e49]:
+              - option "Select a course" [disabled]
+              - option "Basic Computer"
+              - option "Fashion Designing" [selected]
+              - option "Nursing"
+              - option "Tally"
+              - option "Not sure yet"
+          - generic [ref=f1e50]:
+            - text: City
+            - textbox "City" [ref=f1e51]: Mumbai
+          - generic [ref=f1e52]:
+            - text: Highest qualification
+            - textbox "Highest qualification" [ref=f1e53]: 12th Pass
+        - generic [ref=f1e54]:
+          - text: Tell us a little about your goal
+          - textbox "Tell us a little about your goal" [ref=f1e55]:
+            - /placeholder: "For example: I would like help choosing a course."
+            - text: I want to learn fashion designing and start my own boutique business.
+        - generic [ref=f1e56]:
+          - checkbox "I agree that Zahara College of Skills may contact me about my enquiry by phone, WhatsApp or email." [checked] [ref=f1e57]
+          - text: I agree that Zahara College of Skills may contact me about my enquiry by phone, WhatsApp or email.
+        - button "Sending enquiry" [disabled]
+  - contentinfo [ref=f1e62]:
+    - generic [ref=f1e63]:
+      - generic [ref=f1e64]:
+        - generic [ref=f1e65]:
+          - img "Zahara Education and Charitable Trust" [ref=f1e67]
+          - generic [ref=f1e68]:
+            - paragraph [ref=f1e69]: Zahara
+            - paragraph [ref=f1e70]: College of Skills
+        - paragraph [ref=f1e71]: Empowering Women, Building Futures. Practical, affordable vocational education for a confident tomorrow.
+        - generic [ref=f1e72]:
+          - link "WhatsApp" [ref=f1e73] [cursor=pointer]:
+            - /url: https://wa.me/919328282900
+          - link "Instagram" [ref=f1e76] [cursor=pointer]:
+            - /url: https://www.instagram.com/zahara_college_of_skills
+      - generic [ref=f1e80]:
+        - heading "Explore" [level=3] [ref=f1e81]
+        - list [ref=f1e82]:
+          - listitem [ref=f1e83]:
+            - link "About Zahara" [ref=f1e84] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=f1e85]:
+            - link "Explore Courses" [ref=f1e86] [cursor=pointer]:
+              - /url: /courses
+          - listitem [ref=f1e87]:
+            - link "Admissions" [ref=f1e88] [cursor=pointer]:
+              - /url: /admissions
+          - listitem [ref=f1e89]:
+            - link "Life at Zahara" [ref=f1e90] [cursor=pointer]:
+              - /url: /#life-at-zahara
+          - listitem [ref=f1e91]:
+            - link "Contact" [ref=f1e92] [cursor=pointer]:
+              - /url: /#contact
+      - generic [ref=f1e93]:
+        - heading "Visit & Connect" [level=3] [ref=f1e94]
+        - paragraph [ref=f1e95]: Contact details and the campus location will be added here.
+        - link "Start an enquiry" [ref=f1e99] [cursor=pointer]:
+          - /url: /admissions
+    - generic [ref=f1e104]:
+      - paragraph [ref=f1e105]: © 2026 Zahara College of Skills.
+      - link "Privacy Policy" [ref=f1e106] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f1e111] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f1e112]
+    - generic [ref=f1e117]:
+      - button "Open issues overlay" [ref=f1e118]:
+        - generic [ref=f1e119]:
+          - generic [ref=f1e120]: "0"
+          - generic [ref=f1e121]: "1"
+        - generic [ref=f1e122]: Issue
+      - button "Collapse issues badge" [ref=f1e123]
+  - alert [ref=f1e116]

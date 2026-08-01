@@ -1,0 +1,6 @@
+[
+  { "slug": "basic-computer", "title": "Basic Computer", "category": "Computers & Technology", "duration": "3 months", "description": "Gain the digital confidence needed for everyday work and study.", "image": "/images/office-skills.jpg", "featured": true },
+  { "slug": "fashion-designing", "title": "Fashion Designing", "category": "Fashion & Creativity", "duration": "6 months", "description": "Learn design, pattern-making and garment creation from idea to finish.", "image": "/images/fashion-designing.png", "featured": true },
+  { "slug": "nursing", "title": "Nursing", "category": "Healthcare", "duration": "6 months", "description": "Develop caring, practical skills for a rewarding healthcare path.", "image": "/images/healthcare.png", "featured": true },
+  { "slug": "tally", "title": "Tally", "category": "Business & Office", "duration": "3 months", "description": "Build a strong foundation in accounting software and office readiness.", "image": "/images/office-skills.jpg", "featured": true }
+]

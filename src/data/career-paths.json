@@ -1,0 +1,8 @@
+[
+  { "id": "technology", "title": "Computers & Technology", "description": "Build practical digital skills for the modern workplace.", "icon": "Laptop", "courses": ["Basic Computer", "Tally", "Data Entry"] },
+  { "id": "healthcare", "title": "Healthcare", "description": "Care for people with confidence and compassion.", "icon": "HeartPulse", "courses": ["Nursing", "Caregiver", "Lab Technician"] },
+  { "id": "fashion", "title": "Fashion & Creativity", "description": "Turn your eye for detail into something beautiful.", "icon": "Shirt", "courses": ["Fashion Designing", "Tailoring", "Home Decor"] },
+  { "id": "teaching", "title": "Teaching & Child Care", "description": "Make a meaningful difference in young lives.", "icon": "GraduationCap", "courses": ["NTT & ECCE", "Early Childhood Care"] },
+  { "id": "business", "title": "Business & Office", "description": "Prepare for organised, professional work.", "icon": "BriefcaseBusiness", "courses": ["Tally", "Office Administration", "Data Entry"] },
+  { "id": "creative", "title": "Creative Media", "description": "Bring ideas to life through visual communication.", "icon": "Palette", "courses": ["Desktop Publishing", "Design Fundamentals"] }
+]

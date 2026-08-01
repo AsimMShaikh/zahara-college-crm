@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Plus Jakarta Sans", "Aptos Display", "Segoe UI", sans-serif;
+  --font-sans: "Inter", "Aptos", "Segoe UI", sans-serif;
+}
+
+* { border-color: rgb(226 232 240); }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #ffffff;
+  color: #12233f;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #bed7ff; color: #102a5c; }

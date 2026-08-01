@@ -1,0 +1,393 @@
+Zahara Digital Experience Platform (ZDXP)
+Product Requirements Document (Version 1.0)
+1. Project Vision
+Create a modern digital platform for Zahara College of Skills that goes beyond being a marketing website.
+The first release is a public-facing website, but the architecture should evolve into a complete platform including CRM, marketing automation, landing pages, analytics, and administration.
+The website should feel like a modern technology product rather than a traditional educational institute website.
+2. Mission
+Empower young women through affordable, practical, career-oriented vocational education while making it effortless for parents to trust the institute and for students to discover the right career path.
+3. Product Goals
+Primary Goals
+Increase admissions
+Generate high-quality enquiries
+Build trust with parents
+Help students discover suitable career paths
+Present Zahara as a premium vocational institute
+Secondary Goals
+Build reusable components
+Support future CMS
+Support CRM
+Support marketing campaigns
+Scale to multiple organizations
+4. Target Audience
+Primary
+Girls aged 16–28 seeking vocational education.
+Secondary
+Parents (primary decision-makers).
+Future
+Working women looking to upskill or restart careers.
+5. Brand Identity
+Tagline
+Empowering Women, Building Futures.
+Personality
+Professional
+Modern
+Friendly
+Elegant
+Community-focused
+Trustworthy
+Hopeful
+Values
+Integrity
+Practical Learning
+Empowerment
+Compassion
+Confidence
+Faith
+Emotional Outcome
+Students should feel:
+"I can do this."
+
+Parents should feel:
+"My daughter will be safe here."
+
+6. Core Design Philosophy
+The website should not feel like it is selling courses.
+It should feel like it is guiding life decisions.
+Every page should answer one question before asking the visitor to take action.
+7. Website Principles
+Mobile First
+Modern Minimal + Warm Community
+Real photography over stock images
+White space driven
+Storytelling instead of marketing
+One primary CTA per page
+Every page designed to convert
+Every section must earn its place
+8. Visual Style
+Inspiration
+Apple
+Airbnb
+Coursera
+Khan Academy
+Stripe
+Linear
+Color Palette
+Primary
+Royal Blue
+Secondary
+Soft Sky Blue
+Accent
+Warm Gold
+Success
+Emerald
+Background
+White + Light Gray
+Typography
+Heading
+Plus Jakarta Sans
+Body
+Inter
+UI Style
+Rounded corners
+Soft shadows
+Large cards
+Spacious layout
+Subtle animations
+Clean navigation
+9. Website Information Architecture
+Home
+
+About
+
+Courses
+
+Life at Zahara
+
+Admissions
+
+Contact
+10. Homepage Structure
+Navigation
+
+Hero
+
+Career Explorer ⭐
+
+Trust Indicators
+
+Why Zahara
+
+Featured Courses
+
+Student Journey
+
+Student Success Stories
+
+Life at Zahara
+
+FAQ
+
+Final CTA
+
+Footer
+11. Hero Section
+Goals
+Immediately communicate:
+Women-only institute
+Career-focused
+Affordable
+Trustworthy
+Primary CTA
+Explore Courses
+Secondary CTA
+Start Your Journey
+12. Career Explorer (Signature Feature)
+Instead of listing courses immediately, visitors first select an area of interest.
+Examples:
+Computers & Technology
+Healthcare
+Fashion & Creativity
+Teaching & Child Care
+Business & Office Skills
+Creative Media
+Selecting a category reveals the most suitable courses.
+Future enhancement:
+Career Match Quiz.
+13. Featured Courses
+Display premium course cards including:
+Image
+Course Name
+Duration
+Short Description
+Learn More CTA
+14. Student Journey
+Visual representation of:
+Discover
+
+↓
+
+Choose
+
+↓
+
+Learn
+
+↓
+
+Practice
+
+↓
+
+Graduate
+
+↓
+
+Build Career
+15. Student Success
+Story cards rather than simple testimonials.
+Each story includes:
+Student Photo
+Course
+Achievement
+Read Story
+16. Life at Zahara
+Pinterest-style gallery showcasing:
+Events
+Workshops
+Student projects
+Classroom activities
+Community engagement
+17. Admissions
+Include:
+Admission Process
+Eligibility
+FAQs
+Online Enquiry Form
+WhatsApp CTA
+18. Contact
+Include:
+Address
+Phone
+WhatsApp
+Email
+Google Maps
+Contact Form
+19. Design System
+Reusable components.
+Layout
+Container
+Section
+Grid
+Stack
+Navigation
+Navbar
+Mobile Menu
+Footer
+Buttons
+Primary
+Secondary
+Ghost
+Cards
+Course Card
+Testimonial Card
+Career Card
+Gallery Card
+Event Card
+Forms
+Input
+Select
+TextArea
+Checkbox
+Form Validation
+Utility Components
+FAQ Accordion
+Timeline
+Statistics
+CTA Banner
+Badge
+20. Technology Stack
+Frontend
+Next.js 15
+React
+TypeScript
+Tailwind CSS
+shadcn/ui
+Backend (Future)
+ASP.NET Core
+Database
+PostgreSQL
+Hosting
+Vercel
+Media
+Cloudinary
+Analytics
+Google Analytics
+Meta Pixel
+Microsoft Clarity
+21. Data Strategy
+Never hardcode content inside components.
+Components should consume data from services.
+Component
+
+↓
+
+Service
+
+↓
+
+JSON
+
+↓
+
+API (future)
+
+↓
+
+CMS (future)
+The frontend should never know where the data comes from.
+22. Initial Folder Structure
+src
+│
+├── app
+├── components
+│   ├── layout
+│   ├── sections
+│   ├── shared
+│   └── ui
+│
+├── services
+├── data
+├── types
+├── hooks
+├── lib
+├── assets
+└── styles
+23. Future CMS
+Editable content includes:
+Courses
+Events
+Gallery
+FAQs
+Testimonials
+Landing Pages
+Career Explorer Categories
+Homepage Sections
+Site Settings
+24. Future CRM
+Manage:
+Leads
+Students
+Parents
+Enquiries
+Admissions
+Tasks
+Activities
+Follow-ups
+Notes
+WhatsApp Conversations
+25. Marketing Platform
+Future capabilities:
+Landing Page Builder
+Dynamic Forms
+Meta Lead Integration
+WhatsApp Automation
+Email Campaigns
+Campaign Analytics
+Lead Scoring
+26. Product Architecture
+Digital Experience Platform
+
+├── Marketing Website
+├── Landing Pages
+├── CMS
+├── CRM
+├── WhatsApp Integration
+├── Analytics
+├── Admin Portal
+└── API
+27. Development Strategy
+Sprint 1
+Project setup
+Design system
+Homepage
+Responsive navigation
+Footer
+Sprint 2
+About
+Courses
+Course Details
+Sprint 3
+Admissions
+Contact
+Gallery
+FAQ
+Sprint 4
+SEO
+Performance
+Animations
+Vercel Deployment
+Sprint 5
+Forms
+CRM integration
+WhatsApp integration
+28. Success Metrics
+Business
+Increase qualified enquiries
+Increase admission conversions
+Reduce enquiry drop-off
+Improve trust and engagement
+Technical
+Lighthouse score > 90
+Mobile-first responsive
+Core Web Vitals optimized
+CMS-ready architecture
+Component-driven design
+Reusable codebase
+29. Guiding Principles
+Build for tomorrow, not just today.
+Design sections, not pages.
+Keep the frontend independent of the data source.
+Every page should move the visitor toward a decision.
+Authenticity over perfection.
+Treat the website as the first application of a larger platform, not as a standalone marketing site.

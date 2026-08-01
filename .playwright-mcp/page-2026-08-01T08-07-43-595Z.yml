@@ -1,0 +1,257 @@
+- generic [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - link "Zahara College home" [ref=f11e4] [cursor=pointer]:
+        - /url: /
+        - img "Zahara Education and Charitable Trust" [ref=f11e6]
+        - generic [ref=f11e7]:
+          - generic [ref=f11e8]: Zahara
+          - generic [ref=f11e9]: College of Skills
+      - navigation "Primary navigation" [ref=f11e10]:
+        - link "About" [ref=f11e11] [cursor=pointer]:
+          - /url: /#about
+        - link "Courses" [ref=f11e12] [cursor=pointer]:
+          - /url: /courses
+        - link "Life at Zahara" [ref=f11e13] [cursor=pointer]:
+          - /url: /#life-at-zahara
+        - link "Admissions" [ref=f11e14] [cursor=pointer]:
+          - /url: /admissions
+        - link "Contact" [ref=f11e15] [cursor=pointer]:
+          - /url: /#contact
+      - generic [ref=f11e16]:
+        - link "WhatsApp" [ref=f11e17] [cursor=pointer]:
+          - /url: https://wa.me/919328282900
+        - link "Start Your Journey" [ref=f11e20] [cursor=pointer]:
+          - /url: /admissions
+  - main [ref=f11e21]:
+    - generic [ref=f11e24]:
+      - generic [ref=f11e25]:
+        - paragraph [ref=f11e26]: Zahara College of Skills
+        - heading "Empowering Women, Building Futures." [level=1] [ref=f11e29]: Empowering Women,Building Futures.
+        - paragraph [ref=f11e30]: Career-focused vocational education that helps young women discover their potential, build practical skills and shape a confident future.
+        - generic [ref=f11e31]:
+          - link "Explore career paths" [ref=f11e32] [cursor=pointer]:
+            - /url: "#courses"
+          - link "Start your journey" [ref=f11e35] [cursor=pointer]:
+            - /url: /admissions
+        - list [ref=f11e36]:
+          - listitem [ref=f11e37]: Women-only learning environment
+          - listitem [ref=f11e41]: Affordable skill programmes
+          - listitem [ref=f11e45]: Career-oriented practical training
+      - generic [ref=f11e49]:
+        - generic [ref=f11e51]:
+          - img "A young woman building skills for her future" [ref=f11e52]
+          - paragraph [ref=f11e54]: A place to learn, belong and move forward.
+        - generic [ref=f11e63]:
+          - generic [ref=f11e64]: Built around you
+          - generic [ref=f11e65]: Skills. Support. Confidence.
+    - generic [ref=f11e67]:
+      - generic [ref=f11e68]:
+        - paragraph [ref=f11e69]: Career Explorer
+        - heading "Not sure where to begin? Start with what interests you." [level=2] [ref=f11e70]
+        - paragraph [ref=f11e71]: Choose an area you enjoy. We’ll help you discover skill paths that could be right for you.
+      - generic [ref=f11e72]:
+        - generic [ref=f11e73]:
+          - button [ref=f11e74] [cursor=pointer]:
+            - heading "Computers & Technology" [level=3] [ref=f11e78]
+            - paragraph [ref=f11e79]: Build practical digital skills for the modern workplace.
+          - button [active] [ref=f11e80] [cursor=pointer]:
+            - heading "Healthcare" [level=3] [ref=f11e85]
+            - paragraph [ref=f11e86]: Care for people with confidence and compassion.
+          - button [ref=f11e87] [cursor=pointer]:
+            - heading "Fashion & Creativity" [level=3] [ref=f11e91]
+            - paragraph [ref=f11e92]: Turn your eye for detail into something beautiful.
+          - button [ref=f11e93] [cursor=pointer]:
+            - heading "Teaching & Child Care" [level=3] [ref=f11e98]
+            - paragraph [ref=f11e99]: Make a meaningful difference in young lives.
+          - button [ref=f11e100] [cursor=pointer]:
+            - heading "Business & Office" [level=3] [ref=f11e106]
+            - paragraph [ref=f11e107]: Prepare for organised, professional work.
+          - button [ref=f11e108] [cursor=pointer]:
+            - heading "Creative Media" [level=3] [ref=f11e116]
+            - paragraph [ref=f11e117]: Bring ideas to life through visual communication.
+        - generic [ref=f11e118]:
+          - generic [ref=f11e119]:
+            - paragraph [ref=f11e120]: A good place to start
+            - heading "Explore Healthcare" [level=3] [ref=f11e364]
+            - paragraph [ref=f11e122]: "Suggested paths: Nursing · Caregiver · Lab Technician"
+          - link "View suggested courses" [ref=f11e123] [cursor=pointer]:
+            - /url: /#courses?category=Healthcare
+    - generic [ref=f11e127]:
+      - generic [ref=f11e128]:
+        - paragraph [ref=f11e129]: Why Zahara
+        - heading "A college that sees the person behind every aspiration." [level=2] [ref=f11e130]
+        - paragraph [ref=f11e131]: Zahara exists to provide direction and a platform for young women seeking opportunities that fit their interests and the world of work.
+      - generic [ref=f11e132]:
+        - generic [ref=f11e133]:
+          - generic [ref=f11e134]: "01"
+          - heading "A space to grow" [level=3] [ref=f11e135]
+          - paragraph [ref=f11e136]: A warm, respectful setting designed for women to learn with confidence.
+        - generic [ref=f11e137]:
+          - generic [ref=f11e138]: "02"
+          - heading "Learning that is practical" [level=3] [ref=f11e139]
+          - paragraph [ref=f11e140]: Build real skills through hands-on learning—not just theory.
+        - generic [ref=f11e141]:
+          - generic [ref=f11e142]: "03"
+          - heading "A future within reach" [level=3] [ref=f11e143]
+          - paragraph [ref=f11e144]: Accessible programmes that keep career-building affordable.
+        - generic [ref=f11e145]:
+          - generic [ref=f11e146]: "04"
+          - heading "Support that feels personal" [level=3] [ref=f11e147]
+          - paragraph [ref=f11e148]: Guidance to help you choose a path that fits your interests.
+    - generic [ref=f11e150]:
+      - generic [ref=f11e151]:
+        - generic [ref=f11e152]:
+          - paragraph [ref=f11e153]: Explore skills
+          - heading "Learn a skill that opens new possibilities." [level=2] [ref=f11e154]
+          - paragraph [ref=f11e155]: Every programme has a dedicated page to help you decide if it is right for you.
+        - link "View all courses" [ref=f11e156] [cursor=pointer]:
+          - /url: /courses
+      - generic [ref=f11e159]:
+        - article [ref=f11e160]:
+          - generic [ref=f11e162]:
+            - paragraph [ref=f11e163]: 3 months
+            - heading "Basic Computer" [level=3] [ref=f11e164]
+            - paragraph [ref=f11e165]: Gain the digital confidence needed for everyday work and study.
+            - link "Learn more" [ref=f11e166] [cursor=pointer]:
+              - /url: /courses/basic-computer
+        - article [ref=f11e169]:
+          - generic [ref=f11e171]:
+            - paragraph [ref=f11e172]: 6 months
+            - heading "Fashion Designing" [level=3] [ref=f11e173]
+            - paragraph [ref=f11e174]: Learn design, pattern-making and garment creation from idea to finish.
+            - link "Learn more" [ref=f11e175] [cursor=pointer]:
+              - /url: /courses/fashion-designing
+        - article [ref=f11e178]:
+          - generic [ref=f11e180]:
+            - paragraph [ref=f11e181]: 6 months
+            - heading "Nursing" [level=3] [ref=f11e182]
+            - paragraph [ref=f11e183]: Develop caring, practical skills for a rewarding healthcare path.
+            - link "Learn more" [ref=f11e184] [cursor=pointer]:
+              - /url: /courses/nursing
+        - article [ref=f11e187]:
+          - generic [ref=f11e189]:
+            - paragraph [ref=f11e190]: 3 months
+            - heading "Tally" [level=3] [ref=f11e191]
+            - paragraph [ref=f11e192]: Build a strong foundation in accounting software and office readiness.
+            - link "Learn more" [ref=f11e193] [cursor=pointer]:
+              - /url: /courses/tally
+    - generic [ref=f11e197]:
+      - generic [ref=f11e198]:
+        - paragraph [ref=f11e199]: Your journey
+        - heading "One small decision can begin a meaningful journey." [level=2] [ref=f11e200]
+        - paragraph [ref=f11e201]: There is no single path forward. We’re here to make the next step feel clearer.
+      - list [ref=f11e202]:
+        - listitem [ref=f11e203]:
+          - generic [ref=f11e204]: "01"
+          - paragraph [ref=f11e205]: Discover your interests
+        - listitem [ref=f11e206]:
+          - generic [ref=f11e207]: "02"
+          - paragraph [ref=f11e208]: Choose your skill
+        - listitem [ref=f11e209]:
+          - generic [ref=f11e210]: "03"
+          - paragraph [ref=f11e211]: Learn by doing
+        - listitem [ref=f11e212]:
+          - generic [ref=f11e213]: "04"
+          - paragraph [ref=f11e214]: Grow in confidence
+        - listitem [ref=f11e215]:
+          - generic [ref=f11e216]: "05"
+          - paragraph [ref=f11e217]: Take your next step
+    - generic [ref=f11e219]:
+      - generic [ref=f11e220]:
+        - paragraph [ref=f11e221]: Life at Zahara
+        - heading "Learning is more powerful when it feels possible." [level=2] [ref=f11e222]
+        - paragraph [ref=f11e223]: A glimpse of the supportive, practical and community-focused experience we are building.
+      - generic [ref=f11e224]:
+        - article [ref=f11e225]:
+          - generic [ref=f11e227]:
+            - paragraph [ref=f11e228]: Learn by doing
+            - heading "Skills that fit real ambitions" [level=3] [ref=f11e229]
+            - paragraph [ref=f11e230]: A supportive environment for women to explore interests, build confidence and practise practical skills.
+        - article [ref=f11e231]:
+          - generic [ref=f11e233]:
+            - paragraph [ref=f11e234]: Grow with confidence
+            - heading "A community that encourages growth" [level=3] [ref=f11e235]
+            - paragraph [ref=f11e236]: The journey is personal, but no one has to take the first step alone.
+    - generic [ref=f11e238]:
+      - generic [ref=f11e239]:
+        - paragraph [ref=f11e240]: What success can look like
+        - heading "The goal is more than a certificate." [level=2] [ref=f11e241]
+        - paragraph [ref=f11e242]: It is the confidence to explore, learn, contribute and build toward an independent future.
+      - generic [ref=f11e243]:
+        - generic [ref=f11e244]:
+          - heading "Discover what fits" [level=3] [ref=f11e248]
+          - paragraph [ref=f11e249]: Find a direction that feels aligned with your interests and ambitions.
+        - generic [ref=f11e250]:
+          - heading "Build self-belief" [level=3] [ref=f11e256]
+          - paragraph [ref=f11e257]: Practise in an encouraging environment where progress is celebrated.
+        - generic [ref=f11e258]:
+          - heading "Take the next step" [level=3] [ref=f11e262]
+          - paragraph [ref=f11e263]: Use your skills as a foundation for work, further learning or your own venture.
+    - generic [ref=f11e265]:
+      - generic [ref=f11e266]:
+        - paragraph [ref=f11e267]: Admissions
+        - heading "Questions are a good place to start." [level=2] [ref=f11e268]
+        - paragraph [ref=f11e269]: We’ll make the process simple and help you understand your options.
+      - generic [ref=f11e270]:
+        - heading [level=3] [ref=f11e272]:
+          - button "Who can join Zahara College of Skills?" [ref=f11e273] [cursor=pointer]
+        - heading [level=3] [ref=f11e278]:
+          - button "How do I choose the right course?" [ref=f11e279] [cursor=pointer]
+        - heading [level=3] [ref=f11e284]:
+          - button "Are the programmes affordable?" [ref=f11e285] [cursor=pointer]
+        - heading [level=3] [ref=f11e290]:
+          - button "How do I apply?" [ref=f11e291] [cursor=pointer]
+    - generic [ref=f11e297]:
+      - generic [ref=f11e298]:
+        - paragraph [ref=f11e299]: Your future begins here
+        - heading "Every journey starts with one step." [level=2] [ref=f11e300]
+        - paragraph [ref=f11e301]: Take the first step toward practical skills, personal confidence and new possibilities.
+      - generic [ref=f11e302]:
+        - link "Start your journey" [ref=f11e303] [cursor=pointer]:
+          - /url: /admissions
+        - link "Chat on WhatsApp" [ref=f11e306] [cursor=pointer]:
+          - /url: https://wa.me/919328282900
+  - contentinfo [ref=f11e309]:
+    - generic [ref=f11e310]:
+      - generic [ref=f11e311]:
+        - generic [ref=f11e312]:
+          - img "Zahara Education and Charitable Trust" [ref=f11e314]
+          - generic [ref=f11e315]:
+            - paragraph [ref=f11e316]: Zahara
+            - paragraph [ref=f11e317]: College of Skills
+        - paragraph [ref=f11e318]: Empowering Women, Building Futures. Practical, affordable vocational education for a confident tomorrow.
+        - generic [ref=f11e319]:
+          - link "WhatsApp" [ref=f11e320] [cursor=pointer]:
+            - /url: https://wa.me/919328282900
+          - link "Instagram" [ref=f11e323] [cursor=pointer]:
+            - /url: https://www.instagram.com/zahara_college_of_skills
+      - generic [ref=f11e327]:
+        - heading "Explore" [level=3] [ref=f11e328]
+        - list [ref=f11e329]:
+          - listitem [ref=f11e330]:
+            - link "About Zahara" [ref=f11e331] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=f11e332]:
+            - link "Explore Courses" [ref=f11e333] [cursor=pointer]:
+              - /url: /courses
+          - listitem [ref=f11e334]:
+            - link "Admissions" [ref=f11e335] [cursor=pointer]:
+              - /url: /admissions
+          - listitem [ref=f11e336]:
+            - link "Life at Zahara" [ref=f11e337] [cursor=pointer]:
+              - /url: /#life-at-zahara
+          - listitem [ref=f11e338]:
+            - link "Contact" [ref=f11e339] [cursor=pointer]:
+              - /url: /#contact
+      - generic [ref=f11e340]:
+        - heading "Visit & Connect" [level=3] [ref=f11e341]
+        - paragraph [ref=f11e342]: Contact details and the campus location will be added here.
+        - link "Start an enquiry" [ref=f11e346] [cursor=pointer]:
+          - /url: /admissions
+    - generic [ref=f11e351]:
+      - paragraph [ref=f11e352]: © 2026 Zahara College of Skills.
+      - link "Privacy Policy" [ref=f11e353] [cursor=pointer]:
+        - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=f11e359] [cursor=pointer]
+  - alert [ref=f11e363]

@@ -1,0 +1,104 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - link "Zahara College home" [ref=f5e4] [cursor=pointer]:
+        - /url: /
+        - img "Zahara Education and Charitable Trust" [ref=f5e6]
+        - generic [ref=f5e7]:
+          - generic [ref=f5e8]: Zahara
+          - generic [ref=f5e9]: College of Skills
+      - navigation "Primary navigation" [ref=f5e10]:
+        - link "About" [ref=f5e11] [cursor=pointer]:
+          - /url: /#about
+        - link "Courses" [ref=f5e12] [cursor=pointer]:
+          - /url: /courses
+        - link "Life at Zahara" [ref=f5e13] [cursor=pointer]:
+          - /url: /#life-at-zahara
+        - link "Admissions" [ref=f5e14] [cursor=pointer]:
+          - /url: /admissions
+        - link "Contact" [ref=f5e15] [cursor=pointer]:
+          - /url: /#contact
+      - generic [ref=f5e16]:
+        - link "WhatsApp" [ref=f5e17] [cursor=pointer]:
+          - /url: https://wa.me/919328282900
+        - link "Start Your Journey" [ref=f5e20] [cursor=pointer]:
+          - /url: /admissions
+  - main [ref=f5e21]:
+    - generic [ref=f5e23]:
+      - paragraph [ref=f5e24]: Zahara College of Skills
+      - heading "Explore skills that can shape your future." [level=1] [ref=f5e25]
+      - paragraph [ref=f5e26]: Browse our career-focused programmes and find a path that matches your interests.
+    - generic [ref=f5e28]:
+      - generic [ref=f5e29]:
+        - paragraph [ref=f5e30]: Programmes
+        - heading "Choose a direction that feels right for you." [level=2] [ref=f5e31]
+      - generic [ref=f5e32]:
+        - article [ref=f5e33]:
+          - generic [ref=f5e35]:
+            - paragraph [ref=f5e36]: Computers & Technology · 3 months
+            - heading "Basic Computer" [level=2] [ref=f5e37]
+            - paragraph [ref=f5e38]: Gain the digital confidence needed for everyday work and study.
+            - link "Explore this course" [ref=f5e39] [cursor=pointer]:
+              - /url: /courses/basic-computer
+        - article [ref=f5e42]:
+          - generic [ref=f5e44]:
+            - paragraph [ref=f5e45]: Fashion & Creativity · 6 months
+            - heading "Fashion Designing" [level=2] [ref=f5e46]
+            - paragraph [ref=f5e47]: Learn design, pattern-making and garment creation from idea to finish.
+            - link "Explore this course" [ref=f5e48] [cursor=pointer]:
+              - /url: /courses/fashion-designing
+        - article [ref=f5e51]:
+          - generic [ref=f5e53]:
+            - paragraph [ref=f5e54]: Healthcare · 6 months
+            - heading "Nursing" [level=2] [ref=f5e55]
+            - paragraph [ref=f5e56]: Develop caring, practical skills for a rewarding healthcare path.
+            - link "Explore this course" [ref=f5e57] [cursor=pointer]:
+              - /url: /courses/nursing
+        - article [ref=f5e60]:
+          - generic [ref=f5e62]:
+            - paragraph [ref=f5e63]: Business & Office · 3 months
+            - heading "Tally" [level=2] [ref=f5e64]
+            - paragraph [ref=f5e65]: Build a strong foundation in accounting software and office readiness.
+            - link "Explore this course" [ref=f5e66] [cursor=pointer]:
+              - /url: /courses/tally
+  - contentinfo [ref=f5e69]:
+    - generic [ref=f5e70]:
+      - generic [ref=f5e71]:
+        - generic [ref=f5e72]:
+          - img "Zahara Education and Charitable Trust" [ref=f5e74]
+          - generic [ref=f5e75]:
+            - paragraph [ref=f5e76]: Zahara
+            - paragraph [ref=f5e77]: College of Skills
+        - paragraph [ref=f5e78]: Empowering Women, Building Futures. Practical, affordable vocational education for a confident tomorrow.
+        - generic [ref=f5e79]:
+          - link "WhatsApp" [ref=f5e80] [cursor=pointer]:
+            - /url: https://wa.me/919328282900
+          - link "Instagram" [ref=f5e83] [cursor=pointer]:
+            - /url: https://www.instagram.com/zahara_college_of_skills
+      - generic [ref=f5e87]:
+        - heading "Explore" [level=3] [ref=f5e88]
+        - list [ref=f5e89]:
+          - listitem [ref=f5e90]:
+            - link "About Zahara" [ref=f5e91] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=f5e92]:
+            - link "Explore Courses" [ref=f5e93] [cursor=pointer]:
+              - /url: /courses
+          - listitem [ref=f5e94]:
+            - link "Admissions" [ref=f5e95] [cursor=pointer]:
+              - /url: /admissions
+          - listitem [ref=f5e96]:
+            - link "Life at Zahara" [ref=f5e97] [cursor=pointer]:
+              - /url: /#life-at-zahara
+          - listitem [ref=f5e98]:
+            - link "Contact" [ref=f5e99] [cursor=pointer]:
+              - /url: /#contact
+      - generic [ref=f5e100]:
+        - heading "Visit & Connect" [level=3] [ref=f5e101]
+        - paragraph [ref=f5e102]: Contact details and the campus location will be added here.
+        - link "Start an enquiry" [ref=f5e106] [cursor=pointer]:
+          - /url: /admissions
+    - generic [ref=f5e111]:
+      - paragraph [ref=f5e112]: © 2026 Zahara College of Skills.
+      - link "Privacy Policy" [ref=f5e113] [cursor=pointer]:
+        - /url: "#"

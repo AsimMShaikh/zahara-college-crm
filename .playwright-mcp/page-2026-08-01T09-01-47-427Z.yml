@@ -1,0 +1,112 @@
+- generic [active] [ref=f15e1]:
+  - banner [ref=f15e2]:
+    - generic [ref=f15e3]:
+      - link "Zahara College home" [ref=f15e4] [cursor=pointer]:
+        - /url: /
+        - img "Zahara Education and Charitable Trust" [ref=f15e6]
+        - generic [ref=f15e7]:
+          - generic [ref=f15e8]: Zahara
+          - generic [ref=f15e9]: College of Skills
+      - navigation "Primary navigation" [ref=f15e10]:
+        - link "About" [ref=f15e11] [cursor=pointer]:
+          - /url: /#about
+        - link "Courses" [ref=f15e12] [cursor=pointer]:
+          - /url: /courses
+        - link "Life at Zahara" [ref=f15e13] [cursor=pointer]:
+          - /url: /#life-at-zahara
+        - link "Admissions" [ref=f15e14] [cursor=pointer]:
+          - /url: /admissions
+        - link "Contact" [ref=f15e15] [cursor=pointer]:
+          - /url: /#contact
+      - generic [ref=f15e16]:
+        - link "WhatsApp" [ref=f15e17] [cursor=pointer]:
+          - /url: https://wa.me/919328282900
+        - link "Start Your Journey" [ref=f15e20] [cursor=pointer]:
+          - /url: /admissions
+  - main [ref=f15e21]:
+    - generic [ref=f15e23]:
+      - paragraph [ref=f15e24]: Contact Us
+      - heading "We're here to help you start your journey." [level=1] [ref=f15e25]
+      - paragraph [ref=f15e26]: Have questions about our programmes or the admission process? Reach out to us and we'll guide you.
+    - generic [ref=f15e29]:
+      - generic [ref=f15e30]:
+        - heading "Get in touch" [level=2] [ref=f15e31]
+        - paragraph [ref=f15e32]: We're available to answer your questions and help you find the right programme for your goals.
+        - generic [ref=f15e33]:
+          - generic [ref=f15e39]:
+            - heading "Visit Our Campus" [level=3] [ref=f15e40]
+            - link "Madresa e, Yasin Khan Pathan Rd Talimunniswa Vadodara, Gujarat 390001" [ref=f15e41] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/RCMYReocWAq1ehGt5
+              - text: Madresa e, Yasin Khan Pathan RdTalimunniswaVadodara, Gujarat 390001
+          - generic [ref=f15e46]:
+            - heading "Call Us" [level=3] [ref=f15e47]
+            - link "093282 82900" [ref=f15e48] [cursor=pointer]:
+              - /url: tel:09328282900
+            - paragraph [ref=f15e49]: Monday - Saturday, 9:00 AM - 6:00 PM
+          - generic [ref=f15e55]:
+            - heading "Email Us" [level=3] [ref=f15e56]
+            - link "zaharacollegeofskills99@gmail.com" [ref=f15e57] [cursor=pointer]:
+              - /url: mailto:zaharacollegeofskills99@gmail.com
+            - paragraph [ref=f15e58]: We'll respond within 24 hours
+          - generic [ref=f15e63]:
+            - heading "Chat on WhatsApp" [level=3] [ref=f15e64]
+            - paragraph [ref=f15e65]: Quick questions? Message us directly.
+            - link "Open WhatsApp" [ref=f15e66] [cursor=pointer]:
+              - /url: https://wa.me/919328282900
+        - link "Start Your Admission Enquiry" [ref=f15e70] [cursor=pointer]:
+          - /url: /admissions
+      - iframe [ref=f15e73]:
+        - generic [ref=f16e6]:
+          - region "Map" [ref=f16e7]
+          - iframe [ref=f16e45]:
+            
+  - contentinfo [ref=f15e74]:
+    - generic [ref=f15e75]:
+      - generic [ref=f15e76]:
+        - generic [ref=f15e77]:
+          - img "Zahara Education and Charitable Trust" [ref=f15e79]
+          - generic [ref=f15e80]:
+            - paragraph [ref=f15e81]: Zahara
+            - paragraph [ref=f15e82]: College of Skills
+        - paragraph [ref=f15e83]: Empowering Women, Building Futures. Practical, affordable vocational education for a confident tomorrow.
+        - generic [ref=f15e84]:
+          - link "WhatsApp" [ref=f15e85] [cursor=pointer]:
+            - /url: https://wa.me/919328282900
+          - link "Instagram" [ref=f15e88] [cursor=pointer]:
+            - /url: https://www.instagram.com/zahara_college_of_skills
+      - generic [ref=f15e92]:
+        - heading "Explore" [level=3] [ref=f15e93]
+        - list [ref=f15e94]:
+          - listitem [ref=f15e95]:
+            - link "About Zahara" [ref=f15e96] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=f15e97]:
+            - link "Explore Courses" [ref=f15e98] [cursor=pointer]:
+              - /url: /courses
+          - listitem [ref=f15e99]:
+            - link "Admissions" [ref=f15e100] [cursor=pointer]:
+              - /url: /admissions
+          - listitem [ref=f15e101]:
+            - link "Life at Zahara" [ref=f15e102] [cursor=pointer]:
+              - /url: /#life-at-zahara
+          - listitem [ref=f15e103]:
+            - link "Contact" [ref=f15e104] [cursor=pointer]:
+              - /url: /#contact
+      - generic [ref=f15e105]:
+        - heading "Visit & Connect" [level=3] [ref=f15e106]
+        - generic [ref=f15e107]:
+          - link [ref=f15e108] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/RCMYReocWAq1ehGt5
+            - generic [ref=f15e112]: Madresa e, Yasin Khan Pathan RdTalimunniswaVadodara, Gujarat 390001
+          - link "093282 82900" [ref=f15e113] [cursor=pointer]:
+            - /url: tel:09328282900
+          - link "zaharacollegeofskills99@gmail.com" [ref=f15e117] [cursor=pointer]:
+            - /url: mailto:zaharacollegeofskills99@gmail.com
+        - link "Start an enquiry" [ref=f15e122] [cursor=pointer]:
+          - /url: /admissions
+    - generic [ref=f15e127]:
+      - paragraph [ref=f15e128]: © 2026 Zahara College of Skills.
+      - link "Privacy Policy" [ref=f15e129] [cursor=pointer]:
+        - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=f15e135] [cursor=pointer]
+  - alert [ref=f15e139]
