@@ -10,6 +10,7 @@ export const homeService = {
   getCareerPaths: (): CareerPath[] => careerPaths as CareerPath[],
   getCourses: (): Course[] => courses,
   getFeaturedCourses: (): Course[] => courses.filter((course) => course.featured),
+  getHeroCourses: (): Course[] => courses.filter((course) => course.hero),
   getCourseBySlug: (slug: string): Course | undefined => courses.find((course) => course.slug === slug),
   getFAQs: (): FAQ[] => faqs,
   getStories: (): Story[] => stories,

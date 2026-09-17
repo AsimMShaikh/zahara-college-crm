@@ -1,14 +1,26 @@
 "use client";
 
-import { type FormEvent, useState } from "react";
+import { type FormEvent, useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { LoaderCircle, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const courses = ["Basic Computer", "Fashion Designing", "Nursing", "Tally", "Not sure yet"];
+import { homeService } from "@/services/home.service";
 
 export function AdmissionForm() {
+  const searchParams = useSearchParams();
+  const courseParam = searchParams.get("course");
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [selectedCourse, setSelectedCourse] = useState("");
+
+  const allCourses = homeService.getCourses();
+  const courseOptions = [...allCourses.map(c => c.title), "Not sure yet"];
+
+  useEffect(() => {
+    if (courseParam) {
+      setSelectedCourse(courseParam);
+    }
+  }, [courseParam]);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -21,6 +33,7 @@ export function AdmissionForm() {
       if (formElement) {
         formElement.reset();
       }
+      setSelectedCourse("");
       setStatus("success");
       setMessage("Thank you. Our admissions team will contact you soon.");
     } else {
@@ -34,7 +47,7 @@ export function AdmissionForm() {
       <Field label="Full name" name="name" required />
       <Field label="Mobile number" name="phone" type="tel" required />
       <Field label="Email address" name="email" type="email" />
-      <label className="grid gap-2 text-sm font-semibold text-ink">Course interested in<select name="course" required defaultValue="" className="h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm font-normal text-slate-700 focus:border-brand-500 focus:outline-none"><option value="" disabled>Select a course</option>{courses.map((course) => <option key={course}>{course}</option>)}</select></label>
+      <label className="grid gap-2 text-sm font-semibold text-ink">Course interested in<select name="course" required value={selectedCourse} onChange={(e) => setSelectedCourse(e.target.value)} className="h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm font-normal text-slate-700 focus:border-brand-500 focus:outline-none"><option value="" disabled>Select a course</option>{courseOptions.map((course) => <option key={course} value={course}>{course}</option>)}</select></label>
       <Field label="City" name="city" />
       <Field label="Highest qualification" name="qualification" />
     </div>

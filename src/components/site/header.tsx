@@ -10,7 +10,7 @@ import { siteService } from "@/services/site.service";
 const links = [
   { href: "/#about", label: "About" },
   { href: "/courses", label: "Courses" },
-  { href: "/#life-at-zahara", label: "Life at Zahara" },
+  { href: "/life-at-zahara", label: "Life at Zahara" },
   { href: "/admissions", label: "Admissions" },
   { href: "/#contact", label: "Contact" }
 ];

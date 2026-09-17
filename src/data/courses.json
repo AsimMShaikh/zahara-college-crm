@@ -1,6 +1,232 @@
 [
-  { "slug": "basic-computer", "title": "Basic Computer", "category": "Computers & Technology", "duration": "3 months", "description": "Gain the digital confidence needed for everyday work and study.", "image": "/images/office-skills.jpg", "featured": true },
-  { "slug": "fashion-designing", "title": "Fashion Designing", "category": "Fashion & Creativity", "duration": "6 months", "description": "Learn design, pattern-making and garment creation from idea to finish.", "image": "/images/fashion-designing.png", "featured": true },
-  { "slug": "nursing", "title": "Nursing", "category": "Healthcare", "duration": "6 months", "description": "Develop caring, practical skills for a rewarding healthcare path.", "image": "/images/healthcare.png", "featured": true },
-  { "slug": "tally", "title": "Tally", "category": "Business & Office", "duration": "3 months", "description": "Build a strong foundation in accounting software and office readiness.", "image": "/images/office-skills.jpg", "featured": true }
+  {
+    "slug": "basic-computer",
+    "title": "Basic Computer",
+    "category": "Computers & Technology",
+    "duration": "3 months",
+    "description": "Gain the digital confidence needed for everyday work and study.",
+    "image": "/images/computer-lab.jpeg",
+    "featured": true,
+    "tagline": "Learn • Practice • Grow",
+    "curriculumDescription": "Master essential computer skills from basics to advanced Microsoft Office applications, preparing you for any modern workplace.",
+    "learningOutcomes": [
+      "Computer Fundamentals",
+      "Windows Operating System",
+      "MS Word – Basic to Advanced",
+      "MS Excel – Basic to Advanced",
+      "MS PowerPoint",
+      "Internet & Email",
+      "Typing & File Management"
+    ]
+  },
+  {
+    "slug": "fashion-designing",
+    "title": "Fashion Designing",
+    "category": "Fashion & Creativity",
+    "duration": "6 months",
+    "description": "Learn design, pattern-making and garment creation from idea to finish.",
+    "image": "/images/Fashion Design 2.jpeg",
+    "featured": true,
+    "tagline": "Design • Stitch • Create",
+    "curriculumDescription": "Transform your creativity into wearable art with comprehensive training in fashion design, from sketching concepts to creating finished garments.",
+    "learningOutcomes": [
+      "Fashion Sketching",
+      "Pattern Making",
+      "Fabric Knowledge",
+      "Cutting & Stitching",
+      "Garment Construction",
+      "Embroidery & Detailing",
+      "Current Fashion Trends"
+    ]
+  },
+  {
+    "slug": "nursing",
+    "title": "Nursing Course",
+    "category": "Healthcare",
+    "duration": "6 months",
+    "description": "Develop caring, practical skills for a rewarding healthcare path.",
+    "image": "/images/nursing.jpeg",
+    "featured": true,
+    "tagline": "Care • Skills • Service",
+    "curriculumDescription": "Build a strong foundation in patient care with hands-on training in nursing fundamentals, medical procedures, and hospital practices.",
+    "learningOutcomes": [
+      "Patient Care Basics",
+      "First Aid",
+      "Health & Hygiene",
+      "Vital Signs Monitoring",
+      "Basic Medical Equipment Handling",
+      "Nursing Fundamentals",
+      "Hospital Training & Practical Skills"
+    ]
+  },
+  {
+    "slug": "tally",
+    "title": "Tally Prime",
+    "category": "Business & Office",
+    "duration": "3 months",
+    "description": "Build a strong foundation in accounting software and office readiness.",
+    "image": "/images/office-skills.jpg",
+    "featured": true,
+    "tagline": "Accounts • GST • Billing",
+    "curriculumDescription": "Become proficient in India's leading accounting software with complete training in GST, inventory management, and financial reporting.",
+    "learningOutcomes": [
+      "Company Creation & Setup",
+      "Ledger Management",
+      "Sales & Purchase Entries",
+      "GST Accounting",
+      "Banking & Reconciliation",
+      "Inventory Management",
+      "Financial Reports"
+    ]
+  },
+  {
+    "slug": "desktop-publishing",
+    "title": "Desktop Publishing",
+    "category": "Computers & Technology",
+    "duration": "3 months",
+    "description": "Master professional design software to create stunning marketing materials, brochures, and print-ready designs.",
+    "image": "/images/computer-lab.jpeg",
+    "featured": false,
+    "tagline": "Design • Create • Publish",
+    "curriculumDescription": "Learn professional design software to create stunning marketing materials, brochures, and print-ready designs for business and personal projects.",
+    "learningOutcomes": [
+      "Page Layout & Professional Design",
+      "Brochure & Flyer Designing",
+      "Visiting Card Designing",
+      "Certificate Designing",
+      "Poster & Banner Designing",
+      "Typography & Customization",
+      "Print-Ready Design"
+    ]
+  },
+  {
+    "slug": "video-editing",
+    "title": "Video Editing",
+    "category": "Computers & Technology",
+    "duration": "3 months",
+    "description": "Learn professional video editing skills to create compelling content for social media, YouTube, and professional projects.",
+    "image": "/images/computer-lab.jpeg",
+    "featured": false,
+    "tagline": "Edit • Create • Inspire",
+    "curriculumDescription": "Master video editing techniques to create engaging content for YouTube, social media, and professional video production projects.",
+    "learningOutcomes": [
+      "Video Cutting & Trimming",
+      "Transitions & Effects",
+      "Audio Editing",
+      "Color Correction",
+      "Motion Graphics",
+      "Titles & Text Animation",
+      "Professional Video Production"
+    ]
+  },
+  {
+    "slug": "website-designing",
+    "title": "Website Designing",
+    "category": "Computers & Technology",
+    "duration": "3 months",
+    "description": "Build modern, responsive websites and launch your career in web development with hands-on training in design and coding.",
+    "image": "/images/computer-lab.jpeg",
+    "featured": false,
+    "tagline": "Design • Develop • Launch",
+    "curriculumDescription": "Build professional websites from scratch with training in HTML, CSS, JavaScript, WordPress, and everything you need to launch websites online.",
+    "learningOutcomes": [
+      "HTML, CSS & JavaScript Basics",
+      "Responsive Website Design",
+      "UI/UX Design Principles",
+      "WordPress Development",
+      "Domain & Hosting Basics",
+      "SEO Fundamentals",
+      "Website Publishing"
+    ]
+  },
+  {
+    "slug": "health-and-care",
+    "title": "6-Month Health & Care",
+    "category": "Healthcare",
+    "duration": "6 months",
+    "description": "Professional certification course in health and caregiving, preparing you for compassionate healthcare support roles.",
+    "image": "/images/nursing.jpeg",
+    "featured": false,
+    "tagline": "Learn • Care • Serve",
+    "curriculumDescription": "Gain comprehensive training in health, hygiene, and caregiving to support patients, elderly individuals, and families with professional care skills.",
+    "learningOutcomes": [
+      "Health & Hygiene",
+      "Patient Care",
+      "First Aid",
+      "Nutrition Basics",
+      "Elder Care",
+      "Care Support Skills",
+      "Practical Caregiving Skills"
+    ]
+  },
+  {
+    "slug": "spoken-english",
+    "title": "Spoken English",
+    "category": "Personality Development",
+    "duration": "3 months",
+    "description": "Build fluency and confidence in English communication for personal and professional success.",
+    "image": "/images/fashion-designing.png",
+    "featured": false,
+    "tagline": "Speak • Communicate • Confidently",
+    "curriculumDescription": "Develop strong English communication skills with focus on grammar, pronunciation, conversation practice, and confidence building for real-world situations.",
+    "learningOutcomes": [
+      "Grammar & Vocabulary",
+      "Pronunciation",
+      "Conversation Practice",
+      "Public Speaking",
+      "Listening Skills",
+      "Interview Skills",
+      "Confidence Building"
+    ]
+  },
+  {
+    "slug": "personality-development",
+    "title": "Personality Development",
+    "category": "Personality Development",
+    "duration": "3 months",
+    "description": "Transform your personality with comprehensive training in communication, leadership, and professional etiquette.",
+    "image": "/images/computer-lab.jpeg",
+    "featured": false,
+    "tagline": "Confidence • Communication • Success",
+    "curriculumDescription": "Master essential soft skills including communication, body language, public speaking, and professional etiquette to excel in your personal and professional life.",
+    "learningOutcomes": [
+      "Effective Communication Skills",
+      "Body Language",
+      "Public Speaking",
+      "Interview Preparation",
+      "Leadership Skills",
+      "Team Building",
+      "Confidence & Professional Etiquette"
+    ]
+  },
+  {
+    "slug": "diploma-home-science",
+    "title": "1-Year Diploma in Home Science",
+    "category": "Fashion & Creativity",
+    "duration": "1 year",
+    "description": "Comprehensive professional diploma covering cooking, home decoration, digital skills, and entrepreneurship for career success.",
+    "image": "/images/Fashion Design 2.jpeg",
+    "featured": true,
+    "hero": true,
+    "tagline": "Learn • Create • Build Your Future",
+    "curriculumDescription": "Learn practical skills, build confidence, and create opportunities with comprehensive training in home science, digital skills, and entrepreneurship.",
+    "learningOutcomes": [
+      "Cooking & Nutrition",
+      "Bakery & Pastry Basics",
+      "Chocolate & Sweets Making",
+      "Home Decoration",
+      "Gardening",
+      "Resin Art",
+      "Best Out of Waste",
+      "Office Management",
+      "Spoken English",
+      "Computer Basics",
+      "AI Tools & Digital Skills",
+      "Event Management",
+      "Personality Development",
+      "Entrepreneurship Basics",
+      "Practical Training",
+      "Career-Focused Skill Development"
+    ]
+  }
 ]

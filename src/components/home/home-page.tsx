@@ -1,17 +1,25 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, BadgeCheck, Check, HeartHandshake, MapPin, MessageCircle, MoveUpRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { HeroCourseImage } from "@/components/home/hero-course-image";
 import { CareerExplorer } from "@/components/home/career-explorer";
 import { CoursesSection } from "@/components/home/courses-section";
 import { FAQList } from "@/components/home/faq-list";
 import type { CareerPath, Course, FAQ, Story } from "@/types/content";
 import { siteService } from "@/services/site.service";
 
-type HomePageProps = { careerPaths: CareerPath[]; courses: Course[]; faqs: FAQ[]; stories: Story[] };
+type HomePageProps = { careerPaths: CareerPath[]; courses: Course[]; heroCourses: Course[]; faqs: FAQ[]; stories: Story[] };
 
-const trustPoints = ["Women-only learning environment", "Affordable skill programmes", "Career-oriented practical training"];
+const trustPoints = [
+  "Women-only learning environment",
+  "Affordable skill programmes",
+  "Career-oriented practical training",
+  "Hands-on practical training",
+  "Industry-recognized certificates",
+  "Job placement support"
+];
 const reasons = [
   ["A space to grow", "A warm, respectful setting designed for women to learn with confidence."],
   ["Learning that is practical", "Build real skills through hands-on learning—not just theory."],
@@ -20,13 +28,44 @@ const reasons = [
 ];
 const journey = ["Discover your interests", "Choose your skill", "Learn by doing", "Grow in confidence", "Take your next step"];
 
-export function HomePage({ careerPaths, courses, faqs, stories }: HomePageProps) {
+export function HomePage({ careerPaths, courses, heroCourses, faqs, stories }: HomePageProps) {
   const whatsAppUrl = siteService.getWhatsAppUrl();
   return <main>
-    <section className="relative overflow-hidden"><div className="absolute inset-x-0 top-0 -z-10 h-[34rem] bg-brand-50" /><div className="mx-auto grid max-w-7xl gap-12 px-5 pb-16 pt-14 lg:grid-cols-[1.02fr_.98fr] lg:items-center lg:px-8 lg:pb-24 lg:pt-20">
-      <div><p className="inline-flex items-center gap-2 rounded-full border border-brand-100 bg-white px-3 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-brand-700"><Sparkles className="size-3.5" /> Zahara College of Skills</p><h1 className="mt-6 max-w-xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl">Empowering Women,<br /><span className="text-brand-600">Building Futures.</span></h1><p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">Career-focused vocational education that helps young women discover their potential, build practical skills and shape a confident future.</p><div className="mt-8 flex flex-col gap-3 sm:flex-row"><Button size="lg" asChild><a href="#courses">Explore career paths <ArrowRight className="size-4" /></a></Button><Button size="lg" variant="outline" asChild><Link href="/admissions">Start your journey</Link></Button></div><ul className="mt-9 grid gap-3 sm:grid-cols-3">{trustPoints.map((point) => <li key={point} className="flex items-start gap-2 text-sm font-medium text-slate-700"><span className="mt-0.5 grid size-5 shrink-0 place-items-center rounded-full bg-brand-100 text-brand-700"><Check className="size-3" /></span>{point}</li>)}</ul></div>
-      <div className="relative mx-auto w-full max-w-lg lg:max-w-none"><div className="absolute -right-5 -top-5 size-28 rounded-full bg-warmth/30 blur-2xl" /><div className="relative aspect-[4/4.5] overflow-hidden rounded-4xl shadow-soft"><Image priority src="/images/hero-career.jpg" alt="A young woman building skills for her future" fill className="object-cover object-center" sizes="(max-width: 1024px) 100vw, 50vw" /><div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-transparent to-transparent" /><p className="absolute bottom-7 left-7 max-w-[14rem] font-display text-2xl font-bold leading-tight text-white">A place to learn, belong and move forward.</p></div><div className="absolute -bottom-5 -left-4 rounded-2xl bg-white p-4 shadow-card sm:-left-8"><div className="flex items-center gap-3"><span className="grid size-10 place-items-center rounded-xl bg-brand-50 text-brand-600"><HeartHandshake className="size-5" /></span><span><span className="block text-sm font-bold text-ink">Built around you</span><span className="block text-xs text-slate-500">Skills. Support. Confidence.</span></span></div></div></div>
-    </div></section>
+    <section className="relative overflow-hidden">
+      <div className="absolute inset-x-0 top-0 -z-10 h-[34rem] bg-brand-50" />
+      <div className="mx-auto grid max-w-7xl gap-12 px-5 pb-16 pt-14 lg:grid-cols-[1.02fr_.98fr] lg:items-center lg:px-8 lg:pb-24 lg:pt-20">
+        <div>
+          <p className="inline-flex items-center gap-2 rounded-full border border-brand-100 bg-white px-3 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-brand-700">
+            <Sparkles className="size-3.5" /> Zahara College of Skills
+          </p>
+          <h1 className="mt-6 max-w-xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl">
+            Empowering Women,<br /><span className="text-brand-600">Building Futures.</span>
+          </h1>
+          <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
+            Career-focused vocational education that helps young women discover their potential, build practical skills and shape a confident future.
+          </p>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Button size="lg" asChild>
+              <a href="#courses">Explore career paths <ArrowRight className="size-4" /></a>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
+              <Link href="/admissions">Start your journey</Link>
+            </Button>
+          </div>
+          <ul className="mt-9 grid gap-3 sm:grid-cols-3">
+            {trustPoints.map((point) => (
+              <li key={point} className="flex items-start gap-2 text-sm font-medium text-slate-700">
+                <span className="mt-0.5 grid size-5 shrink-0 place-items-center rounded-full bg-brand-100 text-brand-700">
+                  <Check className="size-3" />
+                </span>
+                {point}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <HeroCourseImage heroCourses={heroCourses} />
+      </div>
+    </section>
 
     <section id="career-explorer" className="bg-white px-5 py-20 sm:py-24 lg:px-8"><div className="mx-auto max-w-7xl"><SectionHeading eyebrow="Career Explorer" title="Not sure where to begin? Start with what interests you." description="Choose an area you enjoy. We’ll help you discover skill paths that could be right for you." /><CareerExplorer paths={careerPaths} /></div></section>
 
@@ -36,7 +75,7 @@ export function HomePage({ careerPaths, courses, faqs, stories }: HomePageProps)
 
     <section className="bg-ink px-5 py-20 text-white sm:py-24 lg:px-8"><div className="mx-auto max-w-7xl"><SectionHeading align="left" eyebrow="Your journey" title="One small decision can begin a meaningful journey." description="There is no single path forward. We’re here to make the next step feel clearer." className="[&_h2]:text-white [&_p:last-child]:text-slate-300 [&_p:first-child]:text-warmth" /><ol className="mt-12 grid gap-4 md:grid-cols-5">{journey.map((step, index) => <li key={step} className="relative rounded-3xl border border-white/10 bg-white/5 p-5"><span className="font-display text-4xl font-bold text-warmth">0{index + 1}</span><p className="mt-10 text-base font-bold leading-6">{step}</p>{index < journey.length - 1 && <MoveUpRight className="absolute right-5 top-5 size-5 text-brand-200 md:hidden" />}</li>)}</ol></div></section>
 
-    <section id="life-at-zahara" className="px-5 py-20 sm:py-24 lg:px-8"><div className="mx-auto max-w-7xl"><SectionHeading eyebrow="Life at Zahara" title="Learning is more powerful when it feels possible." description="A glimpse of the supportive, practical and community-focused experience we are building." /><div className="mt-10 grid gap-5 md:grid-cols-2">{stories.map((story) => <article key={story.title} className="group relative min-h-[23rem] overflow-hidden rounded-4xl"><Image src={story.image} alt="" fill className="object-cover transition duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /><div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/10 to-transparent" /><div className="absolute bottom-0 p-8 text-white"><p className="text-xs font-bold uppercase tracking-[0.14em] text-brand-100">{story.label}</p><h3 className="mt-3 font-display text-3xl font-bold">{story.title}</h3><p className="mt-3 max-w-md text-sm leading-6 text-slate-200">{story.description}</p></div></article>)}</div></div></section>
+    <section id="life-at-zahara" className="px-5 py-20 sm:py-24 lg:px-8"><div className="mx-auto max-w-7xl"><SectionHeading eyebrow="Life at Zahara" title="Learning is more powerful when it feels possible." description="A glimpse of the supportive, practical and community-focused experience we are building." /><div className="mt-10 grid gap-5 md:grid-cols-2">{stories.map((story) => <article key={story.title} className="group relative min-h-[23rem] overflow-hidden rounded-4xl"><Image src={story.image} alt="" fill className="object-cover transition duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /><div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/10 to-transparent" /><div className="absolute bottom-0 p-8 text-white"><p className="text-xs font-bold uppercase tracking-[0.14em] text-brand-100">{story.label}</p><h3 className="mt-3 font-display text-3xl font-bold">{story.title}</h3><p className="mt-3 max-w-md text-sm leading-6 text-slate-200">{story.description}</p></div></article>)}</div><div className="mt-10 text-center"><Button size="lg" variant="outline" asChild><Link href="/life-at-zahara">Explore campus life <ArrowRight className="size-4" /></Link></Button></div></div></section>
 
     <section className="bg-mist px-5 py-20 sm:py-24 lg:px-8"><div className="mx-auto max-w-7xl"><SectionHeading eyebrow="What success can look like" title="The goal is more than a certificate." description="It is the confidence to explore, learn, contribute and build toward an independent future." /><div className="mt-10 grid gap-5 md:grid-cols-3"><div className="rounded-3xl bg-white p-7 shadow-card"><BadgeCheck className="size-8 text-brand-600" /><h3 className="mt-6 font-display text-xl font-bold text-ink">Discover what fits</h3><p className="mt-3 text-sm leading-6 text-slate-600">Find a direction that feels aligned with your interests and ambitions.</p></div><div className="rounded-3xl bg-white p-7 shadow-card"><HeartHandshake className="size-8 text-brand-600" /><h3 className="mt-6 font-display text-xl font-bold text-ink">Build self-belief</h3><p className="mt-3 text-sm leading-6 text-slate-600">Practise in an encouraging environment where progress is celebrated.</p></div><div className="rounded-3xl bg-white p-7 shadow-card"><MapPin className="size-8 text-brand-600" /><h3 className="mt-6 font-display text-xl font-bold text-ink">Take the next step</h3><p className="mt-3 text-sm leading-6 text-slate-600">Use your skills as a foundation for work, further learning or your own venture.</p></div></div></div></section>
 

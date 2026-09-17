@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Muskan Shaikh",
+    "course": "Basic Computer Course",
+    "videoType": "local",
+    "videoUrl": "/videos/testimonial-1.mp4",
+    "thumbnail": "/images/testimonial-1-thumbnail.png",
+    "quote": "I recommend Zahara College of Skills for Computer Course."
+  },
+  {
+    "id": "2",
+    "name": "Shehnaz Sultana",
+    "course": "Nursing Course",
+    "videoType": "local",
+    "videoUrl": "/videos/testimonial-2.mp4",
+    "thumbnail": "/images/testimonial-2-thumbnail.png",
+    "quote": "Teachers gave theoretical as well as practical knowledge here."
+  },
+  {
+    "id": "3",
+    "name": "Multiple Students",
+    "course": "General",
+    "videoType": "local",
+    "videoUrl": "/videos/testimonial-3.mp4",
+    "thumbnail": "/images/testimonial-3-thumbnail.png",
+    "quote": "All age girls can learn here comfortably."
+  },
+  {
+    "id": "4",
+    "name": "Habiba Dudhwala",
+    "course": "Advance Tailoring Course",
+    "videoType": "local",
+    "videoUrl": "/videos/testimonial-4.mp4",
+    "thumbnail": "/images/testimonial-4-thumbnail.png",
+    "quote": "Trainers gave personal attention to each student."
+  }
+]

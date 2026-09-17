@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight, BriefcaseBusiness, GraduationCap, HeartPulse, Laptop, Palette, Shirt } from "lucide-react";
+import { ArrowRight, BriefcaseBusiness, GraduationCap, HeartPulse, Laptop, Palette, Shirt, Users } from "lucide-react";
 import type { CareerPath } from "@/types/content";
 import { cn } from "@/lib/utils";
 
-const icons = { Laptop, HeartPulse, Shirt, GraduationCap, BriefcaseBusiness, Palette };
+const icons = { Laptop, HeartPulse, Shirt, GraduationCap, BriefcaseBusiness, Palette, Users };
 
 export function CareerExplorer({ paths }: { paths: CareerPath[] }) {
   const [activeId, setActiveId] = useState(paths[0]?.id);

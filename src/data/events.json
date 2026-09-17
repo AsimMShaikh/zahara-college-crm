@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "title": "CPR Training at Zahara College",
+    "date": "2026-03-15",
+    "mediaType": "image",
+    "mediaUrl": "/images/CPR Training 2.jpeg",
+    "description": "Students learning CPR techniques during the training session."
+  },
+  {
+    "id": "2",
+    "title": "Nursing training at Zahara College",
+    "date": "2026-02-20",
+    "mediaType": "video",
+    "mediaUrl": "/videos/nursing-training.mp4",
+    "thumbnail": "/images/nursing-training-thumbnail.png",
+    "description": "Students applying nursing skills during the training session."
+  }
+]
